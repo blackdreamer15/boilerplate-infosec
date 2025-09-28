@@ -31,7 +31,6 @@ app.use(
 		directives: {
 			defaultSrc: ["'self'"],
       scriptSrc: ["'self'", "trusted-cdn.com"],
-      styleSrc: ["'self'", 'trusted-cdn.com'],
     },
   })
 );
